@@ -52,6 +52,11 @@ textarea {
 		cursor: pointer;
 }
 
+.bor-bottom {
+		padding: 10px 0px;
+		border-bottom: 1px solid #dfdfdf;
+}
+
 /****** 리스트 ******/
 
 h3 {
@@ -84,19 +89,19 @@ h3 {
 		cursor: pointer;
 }
 
-#main-content-write> ul:before {content:"◀";}
-#main-content-write> ul:after {content:"▶";}
 
-#main-content-write> ul>li{
-				border:1px solid #000000;
-				float:left;
+
+#main-content-write ul li{
+				/* border:1px solid #000000; */
+				float: left; 
 				padding: 0px 3px 0px 3px;
 				list-style-type: none;
 				font-size:15px;
+				text-align: center;
 }
 #main-content-write> button {
 				float: right;
-				margin: 0px 0px 0px 760px;	
+				padding: 3px 8px; 	
 }
 
 
@@ -154,5 +159,19 @@ table>tbody>tr {
 	height: 200px;
 }
 
+#main-content-body #txt-address {
+	margin: 10px 0px 0px 84px;
+	width: 480px;
+}
 
+
+#main-content-body #txt-intro {
+	padding: 6px 3px 6px 6px;
+	font-family: "맑은 고딕", 돋움, 굴림;	
+	font-size:13px; 		
+	margin: 10px 0px 0px 0px;
+	width: 480px;
+	height: 100px;
+	
+}	
 

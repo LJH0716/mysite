@@ -46,38 +46,39 @@
 		<div id="main-contents">
 			<div id="main-content-header">
 				<h3>일반게시판</h3>
-		</div>
-		<!-- //main-content-header -->
+			</div>
+			<!-- //main-content-header -->
 		
 		<div id="main-content-body">
-			<div class="form-group">
-				<label class="form-title">아이디</label>
-				<input type="text">
+			<div class="bor-bottom">
+				<label for="txt-id" class="form-title">아이디</label>
+				<input id="txt-id" type="text">
 			</div>
 			
-			<div class="form-group">
-				<label class="form-title">패스워드</label>
-				<input type="text">
+			<div class="bor-bottom">
+				<label for="txt-pw" class="form-title">패스워드</label>
+				<input id="txt-pw" type="text">
 			</div>
 			
-			<div class="form-group">
-				<label class="form-title">이름</label>
-				<input type="text">
+			<div class="bor-bottom">
+				<label for="txt-name" class="form-title">이름</label>
+				<input id="txt-name" type="text">
 			</div>
 			
-			<div class="form-group">
-				<label class="form-title">프로필사진</label>
-				<input type="file">
+			<div class="bor-bottom">
+				<label for="txt-profile" class="form-title">프로필사진</label>
+				<input id="txt-profile" type="file">
 			</div>
 			
-			<div class="form-group">
-				<label class="form-title">주소</label>
-				<input type="text">
+			<div class="bor-bottom">
+				<label for="txt-address" class="form-title">주소</label>
+				<input type="text" placeholder="우편번호">
 				<button>우편번호찾기</button>
-				<input type="text">
+				<br>
+				<input id="txt-address" type="text" placeholder="주소">
 			</div>
 			
-			<div class="form-group">
+			<div class="bor-bottom">
 				<label class="form-title" for="sel-board">이동통신사</label>
 				<select id="sel-board">
 					<option>선택해 주세요</option>
@@ -87,7 +88,7 @@
 				</select>
 			</div>
 			
-			<div class="form-group">
+			<div class="bor-bottom">
 				<span class="form-title">나이</span>
 				<label for="p01">10대</label>
 				<input id="p01" type="radio" name="permit">
@@ -102,7 +103,7 @@
 				
 			</div>
 			
-			<div class="form-group">
+			<div class="bor-bottom">
 				<span class="form-title">취미</span>
 				<label for="c01">독서</label>
 				<input id="c01" type="checkbox" name="check">
@@ -119,21 +120,31 @@
 				
 			</div>
 			
-		</div>
 		
-	<!-- 글내용 -->
-				<div class="form-group">
-					<label class="form-title">자기소개</label>
-					<textarea id="txt-content"></textarea>				
-				</div>
-
-			<div id="main-content-footer">
-				<button class="btn">등록</button>
-				<button class="btn">초기화</button>
+		
+			<!-- 글내용 -->
+			<div>
+				<label for="txt-intro" class="form-title">자기소개</label>
+				<textarea id="txt-intro"></textarea>				
 			</div>
-			<!-- //main-content-footer -->
+		</div>
+		<!-- //main-content-body -->
+		
+		<div id="main-content-footer">
+			<button class="btn">등록</button>
+			<button class="btn">초기화</button>
+		</div>
+		<!-- //main-content-footer -->
 	</div>
 	<!-- //contents -->
+	
+	<div id="footer">
+		<div>
+			Copyright ⓒ 2022 이정화, All right reserved
+		</div>
+	</div>	
+	<!-- //footer -->
+</div>
 </div>
 <!-- //wrap -->
 		
